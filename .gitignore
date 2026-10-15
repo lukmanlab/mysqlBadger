@@ -52,3 +52,4 @@ plan*.md
 !assets/images/*.jpg
 !assets/images/*.svg
 
+minio.license

@@ -8,11 +8,13 @@ setup(
     install_requires=[
         "pandas",
         "jinja2",
-        "numpy"
+        "numpy",
+        "minio"
     ],
     entry_points={
         'console_scripts': [
             'mysql-badger=mysql_badger:main',
+            'mysql-badger-serve=serve:main',
         ],
     },
     package_data={
